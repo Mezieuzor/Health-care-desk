@@ -18,20 +18,39 @@ export default function BrandStory() {
               Health Care Desk – The Future of Smart Health
             </h2>
             <p className="text-slate-600 leading-relaxed">
-              At Health Desk Clinic, we believe that true wellness comes from harnessing the power of nature combined
-              with modern science. Our commitment to excellence means we source only the finest all-natural ingredients,
-              rigorously tested for purity and potency.
+              At Health Desk Clinic, we believe that true wellness comes from
+              harnessing the power of nature combined with modern science. Our
+              commitment to excellence means we source only the finest
+              all-natural ingredients, rigorously tested for purity and potency.
             </p>
             <p className="text-slate-600 leading-relaxed">
-              Every product we create reflects our dedication to your health journey, backed by transparent research and
-              formulated by experts who care about your well-being as much as you do.
+              Every product we create reflects our dedication to your health
+              journey, backed by transparent research and formulated by experts
+              who care about your well-being as much as you do.
             </p>
-            <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition duration-200">
+            <button
+              className="
+  bg-white
+  text-blue-600
+  border
+  border-blue-600
+  font-medium
+  py-2
+  px-6
+  rounded-lg
+  hover:bg-blue-50
+  transition
+  duration-200
+  mx-auto
+  block
+  w-fit
+"
+            >
               Learn More
             </button>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }

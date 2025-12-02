@@ -14,18 +14,38 @@ export default function EcoManufacturing() {
 
           {/* Content */}
           <div className="space-y-6">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900">Eco-Conscious Manufacturing</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900">
+              Eco-Conscious Manufacturing
+            </h2>
             <p className="text-slate-600 leading-relaxed">
-              Our state-of-the-art manufacturing facility employs sustainable practices that protect our planet while
-              ensuring superior quality. From eco-friendly packaging to energy-efficient production, were committed to
-              responsible stewardship at every step.
+              Our state-of-the-art manufacturing facility employs sustainable
+              practices that protect our planet while ensuring superior quality.
+              From eco-friendly packaging to energy-efficient production, were
+              committed to responsible stewardship at every step.
             </p>
-            <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition duration-200">
+            <button
+              className="
+  bg-white
+  text-blue-600
+  border
+  border-blue-600
+  font-medium
+  py-2
+  px-6
+  rounded-lg
+  hover:bg-blue-50
+  transition
+  duration-200
+  mx-auto
+  block
+  w-fit
+"
+            >
               Learn More
             </button>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
